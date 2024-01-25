@@ -18,7 +18,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess
+          role-to-assume: arn:aws:iam::772767103423:user/hilton
           aws-region: us-east-1
 
       - name: Login to Amazon ECR
