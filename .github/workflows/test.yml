@@ -1,4 +1,4 @@
-name: ci-simplebank
+name: Run unit tests simplebank
 
 on:
   push:
