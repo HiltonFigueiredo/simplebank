@@ -1,4 +1,4 @@
-name: deploy to production
+name: deploy to aws ecr and production
 
 on:
   push:
